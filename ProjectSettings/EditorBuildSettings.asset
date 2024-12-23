@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Level_1.unity
+    guid: 137c63ae710337846a0b6c1ae2cf4ce0
+  - enabled: 1
+    path: Assets/Scenes/LoadingScene.unity
+    guid: 5191d4d1e3ed44b4a87798b83c0325e3
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 687e58f7d437d58428328395311bb1ef
+  - enabled: 1
+    path: Assets/Scenes/MiniGame_Kayu.unity
+    guid: 39477aa0db4566c4784bad0cc1f22ca9
+  - enabled: 1
+    path: Assets/Scenes/MiniGame_Gerobak.unity
+    guid: d45f85fb9f6c6484982c9ea42333aec3
+  - enabled: 1
+    path: Assets/Scenes/Story.unity
+    guid: c1a996d82fe8ef5469635f4ac461e582
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 4983a39a37dc31441bedb14d4febc875, type: 3}

@@ -1,0 +1,202 @@
+{
+    "name": "RupiControls",
+    "maps": [
+        {
+            "name": "Movement",
+            "id": "050ef40d-0eae-4f13-8587-61f8c6e6f164",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "a42a51dd-bf2f-4f99-8f0c-0b887b463286",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "e234a194-283e-4f2d-b586-0c45a4449501",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "c313a52d-00bb-41e4-93e0-a1028a90458b",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "93ddba72-de6f-41ad-9cb8-7d0720134af0",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "6437a057-e2e7-4f79-a208-b92c179e4365",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "3955d0ef-7e21-4242-b1c7-05590a1b52a1",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "Combat",
+            "id": "fcb62b4c-47b0-430a-a191-0bf0082d4693",
+            "actions": [
+                {
+                    "name": "Attack1",
+                    "type": "Value",
+                    "id": "29ae7231-3950-4250-912b-8cad63c15d31",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Attack2",
+                    "type": "Value",
+                    "id": "a15df727-1618-4926-a96f-d63c865abacc",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Attack3",
+                    "type": "Value",
+                    "id": "b3deebed-fa5a-4b2b-a447-c1767a19183a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1ec258d6-ea81-4d75-90cb-9af6ba7ba4bc",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "12bddd8a-d184-493f-9055-09cd0fc80d7a",
+                    "path": "<Keyboard>/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "51ee07b0-37df-4c60-b843-3b55006b6cee",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Jump",
+            "id": "ea433838-69ab-4d67-a46d-d98f33d5b017",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Value",
+                    "id": "f6064c9c-7121-4d0a-a692-52b061d41c57",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6c101df6-2537-43c4-82de-3b8925975b53",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Interact",
+            "id": "eb1170f9-a2c7-4d2f-be54-d918770263db",
+            "actions": [
+                {
+                    "name": "Interacting",
+                    "type": "Value",
+                    "id": "a8cae1a2-e1fa-4a36-80be-3e71ae0403ad",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "aee46c18-15b1-44b6-8fb3-2a0632d49818",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interacting",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
